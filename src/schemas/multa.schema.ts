@@ -8,7 +8,6 @@ export const MultaSchema = z.object ({
 })
 
 export const MultaCreateSchema = z.object ({
-    // id: z.never(),
     valor: z.number(),
     dataMulta: z.coerce.date(),
     pontos: z.number().int().positive(),
