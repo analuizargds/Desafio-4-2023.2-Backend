@@ -24,5 +24,6 @@
     "source.fixAll.eslint": true
   },
 
-  "git.autofetch": true
+  "git.autofetch": true,
+  "cSpell.language": "en,pt"
 }
